@@ -15,12 +15,12 @@ npm install --save stealui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'stealui'
+import { Button } from 'stealui'
 import 'stealui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button type='primary' />
   }
 }
 ```
