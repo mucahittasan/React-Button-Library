@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'stealui'
+import { ExampleComponent, Button } from 'stealui'
 import 'stealui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return(
+    <>
+      <Button type='primary'>Primary</Button>
+      <Button type=''>Default</Button>
+      <Button type='dashed'>Dashed</Button>
+      <Button type='text'>Text</Button>
+      <Button type='link'>Link</Button>
+    </>
+  ) 
 }
 
-export default App
+export default App;
